@@ -1,0 +1,19 @@
+{
+  "name": "photocontest-consumer",
+  "version": "1.0.0",
+  "description": "A consumer to make thumbnails of photos uploaded on Amazon S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebejbaldin/photocontest-consumer.git"
+  },
+  "author": "Sebastiano Emy Jari Baldin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebejbaldin/photocontest-consumer/issues"
+  },
+  "homepage": "https://github.com/sebejbaldin/photocontest-consumer#readme"
+}
