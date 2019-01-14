@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/sebejbaldin/photocontest-consumer/issues"
   },
-  "homepage": "https://github.com/sebejbaldin/photocontest-consumer#readme"
+  "homepage": "https://github.com/sebejbaldin/photocontest-consumer#readme",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "fastify": "^1.13.4",
+    "sharp": "^0.21.2"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0"
+  }
 }
