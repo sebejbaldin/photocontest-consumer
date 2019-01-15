@@ -18,7 +18,9 @@
   "homepage": "https://github.com/sebejbaldin/photocontest-consumer#readme",
   "dependencies": {
     "amqplib": "^0.5.3",
-    "fastify": "^1.13.4",
+    "aws-sdk": "^2.387.0",
+    "pg": "^7.8.0",
+    "request": "^2.88.0",
     "sharp": "^0.21.2"
   },
   "devDependencies": {
