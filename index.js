@@ -69,6 +69,13 @@ rabbitMQ.connect(`amqp://${config.rabbit.user}:${config.rabbit.password}@${confi
                                     })
                                     .then(() => {
                                           ch.ack(message);
+                                          request({
+                                                method: 'POST', 
+                                                uri: config.web_server.url + '/api/v1/picture',
+                                                body: JSON.stringify({
+                                                      url: msg
+                                                })
+                                          });
                                     })
                                     .catch((err) => {
                                           ch.nack(message);

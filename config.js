@@ -15,5 +15,8 @@ module.exports = {
             password: process.env.RABBIT_PASSWORD,
             host: process.env.RABBIT_HOST,
             queue_name: process.env.RABBIT_QUEUE
+      },
+      web_server: {
+            url: process.env.WEB_SERVER
       }
 }
